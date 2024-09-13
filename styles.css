@@ -3,3 +3,8 @@ body {
     background-color: rgb(122, 207, 235);
   }
   p.dotted {border-style: groove;}
+  .header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+  }
