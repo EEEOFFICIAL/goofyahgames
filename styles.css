@@ -1,14 +1,4 @@
-
-p.dotted {border-style: groove;}
-.Unblocked Games{
-  background-color: #0b0000;
-  text-align: center;
-  padding: 20px;
-}
 body {
-    background-color: rgb(122, 207, 235);
-  }
-  body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 8vw;
@@ -29,3 +19,12 @@ body {
         filter: invert(1);
     }
 }
+p.dotted {border-style: groove;}
+.Unblocked Games{
+  background-color: #0b0000;
+  text-align: center;
+  padding: 20px;
+}
+body {
+    background-color: rgb(122, 207, 235);
+  }
