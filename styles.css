@@ -8,8 +8,8 @@ p.dotted {border-style: groove;}
 body {
     background-color: rgb(122, 207, 235);
   }
-  <script src="js/main.js"></script>
-<audio src="media/audio/idiot.mp3" loop autoplay></audio>
+  <script> src="js/main.js"></script>
+<audio> src="media/audio/idiot.mp3" loop autoplay></audio>
 body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
