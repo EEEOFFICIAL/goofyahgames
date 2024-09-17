@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body onload="init();">
-    <p id="idiot">Minecraft</p>
+    <p id="idiot">YOU ARE AN IDIOT!</p>
     <img src="media/img/smile-white.png" alt="">
     <img src="media/img/smile-white.png" alt="">
     <img src="media/img/smile-white.png" alt="">
@@ -14,4 +14,29 @@
 <p>:</p>
 <a href="" target="_stylesheet"></a>
 </body>
+</html>
+<html>
+<script src="js/main.js"></script>
+<audio src="media/audio/idiot.mp3" loop autoplay></audio>
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8vw;
+    size: 8vw;
+
+    animation: flashing 1s infinite step-end;
+}
+
+@keyframes flashing {
+    0% {
+        background-color: black;
+        color: white;
+    }
+
+    50% {
+        background-color: white;
+        -webkit-filter: invert(1);
+        filter: invert(1);
+    }
+}
 </html>
