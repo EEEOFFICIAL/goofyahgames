@@ -1,12 +1,12 @@
-<script src="js/main.js"></script>
-<audio src="media/audio/idiot.mp3" loop autoplay></audio>
+<script> src="js/main.js"></script>
+<audio> src="media/audio/idiot.mp3" loop autoplay></audio>
 body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: (0, 1, 1)
-    size: (0, 1, 1)
+    font-size: 8vw;
+    size: 8vw;
 
-    animation: flashing (0, 0, 1) infinite step-end;
+    animation: flashing 1s infinite step-end;
 }
 
 @keyframes flashing {
