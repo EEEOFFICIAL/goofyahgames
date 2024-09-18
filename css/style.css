@@ -9,13 +9,6 @@
 </body>
 <script src="js/main.js"></script>
 <audio src="media/audio/idiot.mp3" loop autoplay></audio>
-@keyframes anim-half {
-    50% {
-      background-color: #e50000;
-      border-color: #75D13F;
-      border-right-width: 4.8em;
-    }
-  }
   
   @keyframes anim {
     to {
