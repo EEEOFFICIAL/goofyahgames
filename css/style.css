@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="css/style.css">
+    link rel="stylesheet" href="css/style.css">
 </head>
 <body onload="init();">
     <p id="idiot">you are an idiot</p>
@@ -7,6 +7,41 @@
     <img src="media/img/smile-white.png" alt="">
     <img src="media/img/smile-white.png" alt="">
 </body>
-</html>
 <script src="js/main.js"></script>
 <audio src="media/audio/idiot.mp3" loop autoplay></audio>
+@keyframes anim-half {
+    50% {
+      background-color: #e50000;
+      border-color: #75D13F;
+      border-right-width: 4.8em;
+    }
+  }
+  
+  @keyframes anim {
+    to {
+      background-color: #e50000;
+      border-color: #75D13F;
+      border-right-width: 4.8em;
+    }
+  }
+  
+  p {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-color: #75d13f;
+    border: .2em solid #e50000;
+  }
+  
+  p { border-style: solid; color: #fff; text-shadow: 0 0 3px #000; margin: 0 0 0.5em 0; }
+  p::after { content: attr(style); white-space: pre-wrap; }
+  <p style="animation-name: anim-half;
+  animation-timing-function: step-end;"></p>
+  
+  <p style="animation-name: anim;
+  animation-timing-function: cubic-bezier(1,0,0,1);"></p>
+  
+  <p style="/* linear reference */
+  animation-name: anim;
+  animation-timing-function: linear;"></p>
+  
