@@ -31,16 +31,10 @@ body {
   a:hover, a:active {
     background-color: red;
   }    
-    <style>
+    style
     footer {
       font-size: 40px;
     }
-
-    <footer>
-
-    This was made possibe by dragonterror
-
-    </footer>
 
     <footer>Welcome to my website!</footer>
 
