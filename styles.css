@@ -30,15 +30,33 @@ body {
   
   a:hover, a:active {
     background-color: red;
-  }
+  }    
+    <style>
+    footer {
+      font-size: 40px;
+    }
 
-  footer {
+    <footer>
+
+    This was made possibe by dragonterror
+
+    </footer>
+
+    <footer>Welcome to my website!</footer>
+
+  .footer {
     padding: 10px;
-    text-align: center;
-    color:black;
+    text-align:center
+    color:black
   }
-
-  footer {
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: rgb(122, 207, 235);
+    padding-left: 20px;
+  }
+  
+  .footer {
     font-size: 40px;
   }
   footer.double {outline-style: double;}
