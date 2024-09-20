@@ -33,6 +33,12 @@ body {
   }
 
   footer {
+    padding: 10px;
+    text-align: center;
+    color:black;
+  }
+
+  footer {
     font-size: 40px;
   }
   footer.double {outline-style: double;}
