@@ -32,4 +32,7 @@ body {
     background-color: red;
   }
 
+  footer {
+    font-size: 40px;
+  }
   footer.double {outline-style: double;}
