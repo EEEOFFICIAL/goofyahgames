@@ -1,0 +1,14 @@
+if (localStorage.chatUsername) {
+    textInput.value = localStorage.chatUsername;
+    }
+    
+        messageForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            if (textInput.value) {
+            localStorage.chatUsername = textInput.value;
+                document.write("<iframe style='border:0;position:fixed;width:100vw;height:100vh;' src="
+    +"https://6f972c4a-a213-4cf1-8305-0b9b7d540077.id.repl.co/#"+textInput.value+"></iframe>");
+            }
+        });
+    </script>
+    </body>
