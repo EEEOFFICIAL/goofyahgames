@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Join Chat</title>
+        <link rel="stylesheet" href="chat.html
+    </head>
+    
+    <body>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+      </li>
+    </ul>
+       <ul id="form-control" style='max-height: 200px;overflow-y:scroll;'>
+    
+       </ul>
+       <h3>Temporary Chat <br>(Other one is very broken)</h3>
+        <form id="form">
+         <div class="form-group">
+          <label for="input">Username: </label>
+          <input type="text" class="form-control" id="input" aria-describedby="messageH" required placeholder="Type Your Username" maxlength="16"><br>
+          <button type="submit" class="btn btn-primary">Join</button><br>
+    
+          <div class="fixed-bottom" id='active'>
+          </div>
+         </div>
+        </form>
+      </div>
+    </div> 
+    <script>
+    
+        const messageForm = document.getElementById('form');
+        const textInput = document.getElementById('input');
