@@ -7,7 +7,47 @@
       .chat iframe {
        border-radius: 10px;
       }
-      .chat { 
-        background-color:#383838; 
-         }
-            
+      .niceButton {
+    background-color: #98d6ee;
+    border: 1px solid black;
+      }
+      .niceButton:hover {
+      font-weight: bold;
+      }  
+      
+    .close{ 
+    font-size: 30px;
+    background-color:white;
+    color:black;
+    border:1px solid black;
+    margin: 5px;
+    border-radius:50px;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      body {
+        color: #eee;
+        background-image: url(mountainDark.png);
+        background-position: center center;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-size: cover; 
+      }
+    img {
+    filter: brightness(.9) contrast(1);
+    }
+      body a {
+        color: #809fff;
+      }
+     .game-tile {
+          background-color: #292929;
+      }
+      .whitebutton {
+      color: #eee;
+      }
+      .blueContainer {
+    background-color: #191919;
+     }
+     .chat {
+    background-color: #383838; 
+    }
